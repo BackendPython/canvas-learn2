@@ -17,11 +17,15 @@ img{
 }
 
 #warpButton{
-    
-    color: white;
+    color: black;
     font-size: 30px;
     padding: 10px 20px;
     font-style: italic;
     border: 2px solid black;
+    background-color: white;
+}
+
+#warpButton:hover{
+    color: white;
     background-color: black;
 }
