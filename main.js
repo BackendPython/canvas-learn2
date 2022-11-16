@@ -17,7 +17,7 @@ window.addEventListener('load', function () {
             this.size = this.effect.gap;
             this.vx = 0;
             this.vy = 0;
-            this.ease = 0.1;
+            this.ease = 0.3;
         }
         draw(context){
             context.fillStyle = this.color;
@@ -89,5 +89,9 @@ window.addEventListener('load', function () {
     animate();
 
     const warpButton = this.document.getElementById('warpButton')
+
+    warpButton.addEventListener('click', function () {
+        effect.warp()
+    })
 
 })
